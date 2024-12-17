@@ -1,2 +1,2 @@
 bicyles = ['trek', 'cannondale', 'redline', 'specialised']
-print(bicyles[0].title())
+message = f"My first bicycle was a {bicyles[0].title()}"
