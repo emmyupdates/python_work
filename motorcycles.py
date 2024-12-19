@@ -1,5 +1,5 @@
 motorcyles = ['honda', 'yamaha', 'suzuki']
 print(motorcyles)
 
-motorcyles[0] = 'ducati'
+motorcyles.append('ducati')
 print(motorcyles)
