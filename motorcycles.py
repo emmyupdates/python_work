@@ -1,4 +1,6 @@
-motorcyles = ['honda', 'yamaha', 'suzuki']
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
 
-motorcyles.insert(0, 'ducati')
-print(motorcyles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
