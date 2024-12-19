@@ -1,5 +1,7 @@
-motorcyles = ['honda', 'yamaha', 'suzuki']
-print(motorcyles)
+motorcyles = []
 
-motorcyles.append('ducati')
+motorcyles.append('honda')
+motorcyles.append('yamaha')
+motorcyles.append('suzuki')
+
 print(motorcyles)
