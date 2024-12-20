@@ -30,3 +30,8 @@ print(f"{guest_list.pop().title()} will no longer be speaking")
 
 print(guest_list)
 print(f"We are happy to say that {guest_list[0].title()} and {guest_list[1].title()} will still be speaking")
+
+del guest_list[0]
+del guest_list[0]
+print(guest_list)
+print("Thank you all for attending today's Yellowjackets panel. We hope to see you at more Paramount+ events!")
