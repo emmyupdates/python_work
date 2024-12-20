@@ -21,3 +21,12 @@ guest_list.insert(0, 'sophie nelisse')
 guest_list.insert(2, 'christina ricci')
 guest_list.insert(5, 'sammi hanratty')
 print(guest_list)
+print("We would like to announce that Christina Ricci, Sophie Nelisse and Sammi Hanratty will now be joining us!")
+
+print(f"{guest_list.pop(0).title()} will no longer be speaking")
+print(f"{guest_list.pop(4).title()} will no longer be speaking")
+print(f"{guest_list.pop().title()} will no longer be speaking")
+print(f"{guest_list.pop().title()} will no longer be speaking")
+
+print(guest_list)
+print(f"We are happy to say that {guest_list[0].title()} and {guest_list[1].title()} will still be speaking")
