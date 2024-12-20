@@ -14,4 +14,10 @@ print(f"Due to schedule clashes, {jonathan.title()} will no longer be on the pan
 guest_list = ['bart nickerson', 'ashley lyle', 'jonathan lisco']
 guest_list[2] = 'melanie lynskey'
 print(guest_list)
-print("Good news! Melanie Lynskey will now be joining us")
+print("The wonderful Melanie Lynskey has now joined the panel")
+print("Good news! Due to popularity, we have invited even more panelists to speak")
+
+guest_list.insert(0, 'sophie nelisse')
+guest_list.insert(2, 'christina ricci')
+guest_list.insert(5, 'sammi hanratty')
+print(guest_list)
