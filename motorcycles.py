@@ -1,5 +1,5 @@
-motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati']
 print(motorcycles)
 
-last_owned = motorcycles.pop()
-print(f"The last motorcycle I owned was a {last_owned.title()}.")
+motorcycles.remove('ducati')
+print(motorcycles)
