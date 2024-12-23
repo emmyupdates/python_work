@@ -1,3 +1,4 @@
-animals = ['calico', 'british shorthair', 'maine coon']
+animals = ['calicos', 'british shorthairs', 'maine coons']
 for animal in animals:
-    print(animal.title())
+    print(f"{animal.title()} are extremely cute")
+print("And all of them are cats!")
